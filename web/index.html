@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+view-source:https://www.maheshwarisamajjaipur.com/
+-->
+<html>
+
+<head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="font-awesome.min.css" />
+    <link rel="stylesheet" href="animate.min.css" />
+    <link rel="stylesheet" href="stylee.css" />
+    <link rel="stylesheet" href="media.css" />
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous">
+    </script>
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="wow.min.js"></script>
+
+    <style>
+        .ads-slide {
+		height:300px;
+		}
+		
+		.ads-slide img {
+		height:300px;
+		}
+        .top-navbar-mobiledd {
+            display: none;
+        }
+
+        @media only screen and (min-width: 140px) and (max-width: 767px) {
+            .top-navbar-mobiledd {
+                display: block;
+                position: fixed;
+                width: 100%;
+                z-index: 99;
+            }
+        }
+
+        #loader{display:none;}
+#send_otp {
+    text-align: center;
+    background-color: #e44c32;
+    border: 0;
+    width: 48%;
+    height: 36px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    padding: 6px;
+}
+#otpss{display:none;}
+.check_box {
+    display: flex;
+    align-items: center;
+    margin: 0 0 30px;
+    width: 100%;
+}
+.check_box input[type="checkbox"] {
+    margin: 0 5px 0 0;
+}
+#signsend_otp {
+    text-align: center;
+    background-color: #e44c32;
+    border: 0;
+    min-width: 244px;
+    height: 50px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    padding: 12px;
+}
+#signotpss{display:none;}
+#error_msg , #signerror_msg{color:red;}
+
+
+
+/* ----------------------------------
+SLIDER
+*/
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+    </style>
+
+
+</head>
+
+<body class="page-bg">
+    <div class="main-div">
+        <header class="header-section menu-hidden-mobile">
+            <div class="work-mark">
+
+                <div class="tagline2" style="font-size: 38px;">कायस्थ चांद्रसेनीय प्रभू समाज</div>
+                <div class="">&nbsp;</div>
+            </div>
+
+            <div class="container">
+                <div class="left-logo-section"><a href="/"><img src="logo.jpg" alt="" /></a></div>
+                <div class="right-social-section menu-hidden-mobile">
+                    <span class="mobile-no"><img src="https://www.maheshwarisamajjaipur.com/img/phone.png" alt="" />
+                        1800-180-6832</span>
+
+                </div>
+            </div>
+        </header>
+
+        <div class="amrque">
+            <div class="container">
+                <b>News</b>
+                <marquee style="font-size: 15px;" behavior="scroll" direction="left" onmouseover="this.stop();"
+                    onmouseout="this.start();"> श्री माहेश्वरी समाज जयपुर के इतिहास में पहली बार चांदपोल मोक्षधाम के
+                    नवीनीकरण पर ध्यान दिया गया है एवं सर्वधर्म मोक्षधाम चांदपोल के नवीनीकरण विकास एवं नियमित संचालन
+                    योजना का
+                    शुभारंभ कर दिया गया है। श्री माहेश्वरी समाज जयपुर के इतिहास में पहली बार चांदपोल मोक्षधाम के
+                    नवीनीकरण पर
+                    ध्यान दिया गया है एवं सर्वधर्म मोक्षधाम चांदपोल के नवीनीकरण विकास एवं नियमित संचालन योजना का शुभारंभ
+                    कर
+                    दिया गया है। | श्री माहेश्वरी समाज जयपुर के इतिहास में पहली बार चांदपोल मोक्षधाम के नवीनीकरण पर
+                    ध्यान
+                    दिया गया है एवं सर्वधर्म मोक्षधाम चांदपोल के नवीनीकरण विकास एवं नियमित संचालन योजना का शुभारंभ कर
+                    दिया
+                    गया है। श्री माहेश्वरी समाज जयपुर के इतिहास में पहली बार चांदपोल मोक्षधाम के नवीनीकरण पर ध्यान दिया
+                    गया
+                    है एवं सर्वधर्म मोक्षधाम चांदपोल के नवीनीकरण विकास एवं नियमित संचालन योजना का शुभारंभ कर दिया गया
+                    है। |
+                    माहेश्वरी बन्धुओं की सेवा के लिए महेश सेवा कोष में अधिक से अधिक आर्थिक सहयोग करें। आप सहयोग राशि
+                    ऑनलाइन
+                    भेजने के लिए उपरोक्त लिंक का उपयोग करें। आप द्वारा दी गई सहयोग राशि पर आयकर की धारा 80जी में छूट है।
+                    माहेश्वरी बन्धुओं की सेवा के लिए महेश सेवा कोष में अधिक से अधिक आर्थिक सहयोग करें। आप सहयोग राशि
+                    ऑनलाइन
+                    भेजने के लिए उपरोक्त लिंक का उपयोग करें। आप द्वारा दी गई सहयोग राशि पर आयकर की धारा 80जी में छूट है।
+                    |
+                    सभी समाज बन्धुओं को महेश नवमी की हार्दिक शुभकामनाएं / | सभी बन्धुओं से वैब साइट से सम्बन्धित सुझाव
+                    आमंत्रित हैं | माहेश्वरी बन्धुओं के लिए नि: शुल्क एम्बुलेंस सेवा उपलब्ध | माहेश्वरी बन्धुओं की
+                    सुविधा के
+                    लिए समाज कार्यालय में ई-मित्र संचालित किया जा रहा है। | वैब साइट पर विज्ञापन के माध्यम से अपने
+                    व्यवसाय
+                    में वृद्धि करें विज्ञापन दर : वार्षिक रुपए 50000/-, अर्द्ध वार्षिक रुपए 30000/-एवं मासिक रुपए 7000/
+                    12*3.5 INCH Size | जयपुर नगर निगमों की 31 जनवरी 2020 को निर्धारित सीमा में निवास कर रहे माहेश्वरी
+                    बन्धुओं की नई जनगणना का कार्य मोबाइल ऐप के माध्यम से प्रारम्भ | COVID + माहेश्वरी बन्धुओं को नि:
+                    शुल्क
+                    परामर्श हेतु एपैक्स हास्पिटल के सहयोग से COVID -19 हैल्पलाइन 9024177987 संचालित है |
+                </marquee>
+            </div>
+        </div>
+
+        <section class="main-slide">
+            <div class="container">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                      <img src="4.png" style="width:100%">
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <img src="goku.png" style="width:100%">
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <img src="4.png" style="width:100%">
+                    </div>
+                    
+                    </div>
+                    <br>
+                    
+                    <div style="text-align:center">
+                      <span class="dot"></span> 
+                      <span class="dot"></span> 
+                      <span class="dot"></span> 
+                    </div>
+            </div>
+        </section>
+        
+        <!-----------------------------------------------------------------------------------------committee members-->
+        
+            <div class="col-md-10">
+                <div class="border-box" style="margin-left:280px">
+                    <h2 class="heading-text">Kayast Chandrasenya Samaj Mgmt. Committee <a href="/categoriescommittee"> All</a></h2>
+                    <div class="samaj-member-slider">
+                        <div class="camen">
+                            <div class="col-md-4">
+
+                                <h4 class="heading-text" style="text-align: center;"><a href="/karyakarni#home">  श्री माहेश्वरी समाज </a></h4>
+
+                                <div>
+                                    <div class="member-image">
+                                        <div class="hover-show">
+                                            <span class="number">
+                                            </span>
+                                        </div>
+                                        <img src="images/DHAWAL.jpg" alt=""/>      </div>
+
+                                    <div class="emmber-detail text-center">
+                                        <b><a href="/single/committee/774" ><h5> Shri Dhawal Bhedasgaonkar BABA</h5></a></b>
+                                        <!--style='font-family:"KrutiDev010";'-->
+                                        <i><h6>अध्यक्ष</h6></i>
+                                        <!--style='font-family: "KrutiDev010";'-->
+                                    </div>
+                                </div>
+
+
+
+                                <div>
+                                    <div class="member-image">
+                                        <div class="hover-show">
+                                            <span class="number">
+                                            </span>
+                                        </div>
+                                        <img src="https://maheshwarisamajjaipur.com/uploads/thumb/155017376_1660643850.jpg" alt=""/>      </div>
+
+                                    <div class="emmber-detail text-center">
+                                        <b><a href="/single/committee/58" ><h5>Shri Manoj Moondhra</h5></a></b>
+                                        <!--style='font-family:"KrutiDev010";'-->
+                                        <i><h6>महामंत्री </h6></i>
+                                        <!--style='font-family: "KrutiDev010";'-->
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+                            <div class="col-md-4">
+
+                                <h4 class="heading-text" style="text-align: center;"><a href="/karyakarni#menu1"> श्री माहेश्वरी महिला परिषद </a></h4>
+
+                                <div>
+                                    <div class="member-image">
+                                        <div class="hover-show">
+                                            <span class="number">
+                                            </span>
+                                        </div>
+                                        <img src="https://maheshwarisamajjaipur.com/uploads/thumb/Rajni Maheshwari.jpg" alt=""/>      </div>
+
+                                    <div class="emmber-detail text-center">
+                                        <b><a href="/single/committee/628" ><h5>रजनी माहेश्वरी</h5></a></b>
+                                        <!--style='font-family:"KrutiDev010";'-->
+                                        <i><h6>अध्यक्षा</h6></i>
+                                        <!--style='font-family: "KrutiDev010";'-->
+                                    </div>
+                                </div>
+
+
+
+
+
+
+                                <div>
+                                    <div class="member-image">
+                                        <div class="hover-show">
+                                            <span class="number">
+                                            </span>
+                                        </div>
+                                        <img src="https://maheshwarisamajjaipur.com/uploads/thumb/Snehlata Saboo.jpg" alt=""/>      </div>
+
+                                    <div class="emmber-detail text-center">
+                                        <b><a href="/single/committee/632" ><h5>स्नेहलता साबू</h5></a></b>
+                                        <!--style='font-family:"KrutiDev010";'-->
+                                        <i><h6>सचिव</h6></i>
+                                        <!--style='font-family: "KrutiDev010";'-->
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+                            <div class="col-md-4">
+
+                                <h4 class="heading-text" style="text-align: center;"><a href="/karyakarni#menu2">श्री माहेश्वरी नवयुवक मंडल </a></h4>
+
+                                <div>
+                                    <div class="member-image">
+                                        <div class="hover-show">
+                                            <span class="number">
+                                            </span>
+                                        </div>
+                                        <img src="https://maheshwarisamajjaipur.com/uploads/thumb/892031683_1634636294.png" alt=""/>      </div>
+
+                                    <div class="emmber-detail text-center">
+                                        <b><a href="/single/committee/106658" ><h5>आशीष मंत्री (गणगौर बेसन)</h5></a></b>
+                                        <!--style='font-family:"KrutiDev010";'-->
+                                        <i><h6>अध्यक्ष</h6></i>
+                                        <!--style='font-family: "KrutiDev010";'-->
+                                    </div>
+                                </div>
+
+
+
+
+
+
+                                <div>
+                                    <div class="member-image">
+                                        <div class="hover-show">
+                                            <span class="number">
+                                            </span>
+                                        </div>
+                                        <img src="https://maheshwarisamajjaipur.com/uploads/thumb/111 - Copy (3).jpg" alt=""/>      </div>
+
+                                    <div class="emmber-detail text-center">
+                                        <b><a href="/single/committee/106662" ><h5>अंकित काबरा</h5></a></b>
+                                        <!--style='font-family:"KrutiDev010";'-->
+                                        <i><h6>सचिव</h6></i>
+                                        <!--style='font-family: "KrutiDev010";'-->
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+        <script src="slick.js"></script>
+        <script src="custome.js"></script>
+        <script>
+
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+           $('.big-slider').slick({
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
+
+
+            var fixmeTop = $('.fixme').offset().top;       
+$(window).scroll(function() {                  
+    var currentScroll = $(window).scrollTop();
+    if (currentScroll >= fixmeTop) {          
+        $('.fixme').css({                      
+            position: 'fixed',
+            top: '0',
+            left: '0',
+			right: '0',
+			zIndex: '1'
+        });
+    } else {                                  
+        $('.fixme').css({                    
+            position: 'static'
+        });
+    }
+
+});
+
+function isNumberKey(evt){
+	var charCode = (evt.which) ? evt.which : evt.keyCode
+	if (charCode > 31 && (charCode < 48 || charCode > 57))
+		return false;
+
+	return true;
+}
+jQuery(document).ready(function() {
+   //Submit form with id function.
+	$(document).ready(function() {
+    $('#dob').datepicker();
+});
+
+	jQuery('#send_otp').click( function(e){ 
+		e.preventDefault();
+		var err_msgs = '';
+		var contact_no = $.trim($('#contact_number').val());	
+		if(contact_no == ''){
+			err_msgs = 'contact number is empty.'; 
+		}
+		else if(contact_no.length != 10){
+			err_msgs = 'contact number is invalid.'; 
+		}
+		
+		if(err_msgs == ''){
+			var url = "https://www.maheshwarisamajjaipur.com//users/sendotp";
+			// the script where you handle the form input.
+			//console.log($("#signup").serialize());
+			$.ajax({
+				type: "POST",
+				url: url,
+				data: {'contact_no':contact_no}, // serializes the form's elements.
+				success: function(response) {
+					var res = JSON.parse(response);
+					if(res.status == 1){
+						var a = res.error.otp  + ',' + res.error.contact_no;
+						$('.otpsend').val(a);
+						$('#otpss').css("display","block");
+						console.log("WW",res.error);
+					}else{
+						$('#error_msg').show('fast');
+						jQuery('#error_msg').html(res.error);
+						setTimeout(function() {
+							$('#error_msg').hide('fast');
+						}, 5000);
+					}
+				},
+				error: function(response) {
+					console.log(response);
+				}
+			});
+		}
+		else{
+			$('#error_msg').show('fast');
+			jQuery('div#error_msg').html(err_msgs);
+			setTimeout(function() {
+				$('#error_msg').fadeOut('fast');
+			}, 5000);
+		}
+		
+	});
+	
+	
+	jQuery('#signsend_otp').click( function(e){ 
+		e.preventDefault();
+		var signerr_msgs = '';
+		var contact_no = $.trim($('#signcontact_number').val());	
+		
+		if(contact_no == ''){
+			signerr_msgs = 'contact number is empty.'; 
+		}
+		else if(contact_no.length != 10){
+			signerr_msgs = 'contact number is invalid.'; 
+		}
+		
+		if(signerr_msgs == ''){
+			var url = "https://www.maheshwarisamajjaipur.com/users/signsendotp"; 
+			// the script where you handle the form input.
+			//console.log($("#signup").serialize());
+			$.ajax({
+				type: "POST",
+				url: url,
+				data: {'contact_no':contact_no},
+				success: function(response) {
+					var res = JSON.parse(response);
+					if(res.status ==1){
+						var a = res.error.otp  + ',' + res.error.contact_no;
+						$('.signotpsend').val(a);
+						
+						$('#login_btn').removeClass("hide");
+						$('#signotpss').css("display","block"); 
+					}else{
+						$('#signerror_msg').show('fast');
+						jQuery('#signerror_msg').html(res.error);
+						setTimeout(function() {
+							$('#signerror_msg').hide('fast');
+						}, 5000);
+					}
+				},
+				error: function(response) {
+					console.log(response);
+				}
+			});
+		}
+		else{
+			$('#signerror_msg').show('fast');
+			jQuery('div#signerror_msg').html(signerr_msgs);
+			setTimeout(function() {
+				$('#signerror_msg').fadeOut('fast');
+			}, 5000);
+		}
+		
+	});
+	
+	
+	jQuery('#signin_btn').click( function(e){  
+		e.preventDefault();
+		var err_msg = '';
+		var regex = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+		 var numericReg = /^\d*[0-9](|.\d*[0-9]|,\d*[0-9])?$/;
+		var name = $.trim($('#first_name').val());
+		var father_name = $.trim($('#father_name').val());
+		var contact_no = $.trim($('#contact_number').val());
+		var gender = $.trim($('#gender').val());
+		var member_id = $.trim($('#member_id').val());
+		var dob = $.trim($('#dob').val());
+		var remember_me = $.trim($('#termcondition').val()); 
+		var otp = $.trim($('#otp').val()); 
+		// var pass = $.trim($('#pass').val());
+		// var con_pass = $.trim($('#con_pass').val());
+		if(name == ''){
+			err_msg = 'name is empty.'; 
+		}
+		else if(father_name == ''){
+			err_msg = 'father name is empty.'; 
+		}
+		// else if(!regex.test(email)) {
+           // err_msg = 'Invlid email.'; 
+        // }
+		else if(contact_no == ''){
+			err_msg = 'contact number is empty.'; 
+		}else if(contact_no.length != 10){
+			err_msg = 'contact number is invalid.'; 
+		}
+		else if(gender == ''){
+			err_msg = 'gender is empty.'; 
+		}
+		else if(member_id == ''){
+			err_msg = 'member id is empty.'; 
+		}else if(dob == ''){
+			err_msg = 'dob is empty.'; 
+		}else if(otp == ''){
+			err_msg = 'please check otp.'; 
+		}
+		// else if(remember_me == ''){
+			// err_msg = 'Terms and conditions not checked.'; 
+		// }
+		
+		// else if(pass == ''){
+			// err_msg = 'Password is empty.'; 
+		// }
+		// else if(con_pass == ''){
+			// err_msg = 'Confirm Password is empty.'; 
+		// }
+		// else if (pass != con_pass){
+			// err_msg = 'Passwords do not match.'; 
+		// }
+		
+		if(err_msg == ''){
+			var url = "https://www.maheshwarisamajjaipur.com//users/register"; // the script where you handle the form input.
+			//console.log($("#signup").serialize());
+			$.ajax({
+				type: "POST",
+				url: url,
+				data: $("#signup").serialize(), // serializes the form's elements.
+				dataType: "json",
+				success: function(response) {
+					// var ress = JSON.parse(response);
+					console.log(response);
+					if(response.status== 1){
+						window.location.href = "https://www.maheshwarisamajjaipur.com//users/register-success";
+					}else{
+						$('#error_msg').show('fast');
+						jQuery('#error_msg').html(response.error);
+						setTimeout(function() {
+							$('#error_msg').hide('fast');
+						}, 5000);
+					}
+				},
+				error: function(response) {
+					console.log(response);
+				}
+			});
+		}
+		else{
+			$('#error_msg').show('fast');
+			jQuery('div#error_msg').html(err_msg);
+			setTimeout(function() {
+				$('#error_msg').fadeOut('fast');
+			}, 5000);
+		}
+	});
+
+	 
+	
+	
+	jQuery('#login_btn').click( function(e){ 
+		e.preventDefault();
+		var err_msg = '';
+		var contact_no = $.trim($('#signcontact_number').val());
+		var otp = $.trim($('#signotp').val()); 
+		if(contact_no == ''){
+			err_msg = 'contact number is empty.'; 
+		}else if(contact_no.length != 10){
+			err_msg = 'contact number is invalid.'; 
+		}
+		else if(otp == ''){
+			err_msg = 'please check otp.'; 
+		}
+		
+		 if(err_msg==''){
+			var url = "https://www.maheshwarisamajjaipur.com//users/login"; // the script where you handle the form input.
+			//alert($("#login_data").serialize());
+			$.ajax({
+				type: "POST",
+				url: url,
+				data: $("#login_data").serialize(), // serializes the form's elements.
+				dataType: "json",
+				success: function(response){
+					console.log("response",response);
+					if(response.status== 1){
+						 location.reload();
+						 //window.location.href="https://www.maheshwarisamajjaipur.com//orders/index"; 
+					}
+					else{
+						$('#signerror_msg').show();
+						jQuery('#signerror_msg').html(response.error);
+						
+						setTimeout(function() {
+							$('#signerror_msg').hide('fast');
+						}, 5000);
+					}
+				},
+				error: function(response) {
+					console.log(response);
+				}
+			});
+		}
+		else{
+			$('#signerror_msg').show('fast');
+			jQuery('div#signerror_msg').html(err_msg);
+			setTimeout(function() {
+				$('#signerror_msg').fadeOut('fast');
+			}, 5000);
+		}
+	});
+	
+	
+	 
+});
+
+
+        </script>
+    </div>    
+</body>
+
+</html>

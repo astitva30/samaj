@@ -1,0 +1,106 @@
+/***************responsive***************************/
+
+@media screen and (max-width:1200px) {
+.navigation > ul > li > a { padding: 0 5px; font-size: 13px; }
+}
+ @media screen and (max-width:990px) {
+}
+ @media screen and (max-width: 767px) {
+.side-tabs { width: 100%; }
+.tab-content { padding: 20px 0 25px 0; overflow: visible; float: left; width: 100%; }
+.tab-content { overflow-x: auto; }
+.gold-card .first-award {
+    min-height: inherit;
+    float: left;
+    width: 100%;
+}
+ul.mobile-dropdown-content a {
+    font-size: 12px;
+    background-color: #f1f1f1;
+}
+.gold-card .first-award p {
+    min-height: inherit;
+}
+.gold-card .first-award h3 {
+    min-height: inherit;
+}
+.gold-card .award-image {
+    height: auto;
+    position: relative;
+}
+.gold-card .award-image img {
+    position: static;
+}
+.border-box {
+    margin: 55px 0 0 0;
+}
+.nav-tabs > li {
+    width: 100%;
+}
+.amrque {
+    padding: 50px 0 0 0;
+}
+.card-details-block .card-decor {
+    margin-bottom: 15px;
+    float: left;
+    width: 100%;
+}
+}
+ @media screen and (max-width: 320px) {
+}
+
+/***************responsive***************************/
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1087px) {
+}
+ @media only screen and (min-width: 140px) and (max-width: 767px) {
+.header-section { margin: 48px 0 0; text-align: center; padding: 0 10px; }
+.work-mark, .tagline1, .tagline2, .tagline3, .tagline4 { position: static; }
+.work-mark .site-name { font-size: 13px; margin-top: 2px; }
+.tagline1, .tagline2, .tagline3, .tagline4 { font-size: 13px; }
+.left-logo-section > a >img { max-width: 100px; }
+.big-header-image { min-height: 240px; }
+.person-image { width: 128px; }
+.sigle-item-block { flex-direction: column; }
+.sigle-item-details { width: 100%; margin-bottom: 15px; }
+.item-description { width: 100%; }
+.card-details-block { flex-direction: column; }
+.committee-member .member-img { max-width: 100%; }
+.committee-member { /*align-items: unset;*/ }
+.about-us-data .border-box .tabs-content { display: flex; flex-direction: column; }
+.about-us-data .border-box .tabs-content .side-tabs { width: 100%; }
+.about-us-data .border-box .tabs-content .tab-content { padding: 20px 0px; }
+.about-us-data .border-box .tabs-content .tab-content .list2.checklist { padding-left: 0px; }
+.event-galary { /*width:unset;*/ margin: 0px; }
+.newsletter-section { display: flex; flex-direction: column; align-items: flex-start; height: auto; }
+.newsletter-section > i { padding: 0px; }
+.search-form form .input.text { margin-right: 10px; width: 100%; }
+.search-form form { justify-content: space-between; }
+.first-member { margin: 0px; }
+/*side navbar*/
+
+.sidenav { padding-top: 15px; }
+.sidenav a { font-size: 14px; }
+.side-bar-hidden { display: flex; }
+.menu-hidden-mobile { display: none; }
+.top-navbar-mobile { background-color: rgba(242,75,47,1); height: 48px; justify-content: space-between; display: flex; align-items: center; }
+.left-logo-section { position: unset; display: flex; justify-content: center; margin-top: 10px; align-items: center; width: 100%; }
+.contact-info { display: flex; width: 85%; z-index: 99; }
+.modal-dialog { margin: 35px 0px; }
+.register-popup .wrap-input100 { width: 100%; }
+#send_otp { margin-bottom: 20px; }
+}
+.sidenav a { padding: 8px 8px 8px 15px; border-bottom: solid 1px #fff; }
+.sidenav .closebtn { position: absolute; top: -19px; border: 0; right: 7px; font-size: 45px; margin-left: 50px; line-height: 40px; padding-bottom: 0; margin-top: 10px; padding-right: 0; }
+.main-slide .slick-arrow { position: absolute; bottom: 0; top: 0; margin: auto; z-index: 9; border-radius: 0 5px 5px 0; font-size: 0; height: 40px; width: 30px; border: 0; padding: 0; background-color: #e44c32; }
+.main-slide .slick-arrow.slick-prev:before { content: ""; border-right: 10px solid #fff; position: absolute; top: 10px; border-top: solid 10px transparent; border-bottom: solid 10px transparent; left: 7px; }
+.main-slide button.slick-next.slick-arrow:before { content: ""; border-left: 10px solid #fff; position: absolute; right: 7px; top: 10px; border-top: solid 10px transparent; border-bottom: solid 10px transparent; }
+.main-slide button.slick-next.slick-arrow { left: auto; right: 0; border-radius: 5px 0 0 5px; }
+.sidenav {
+    position: fixed;
+    top: 0;
+    overflow: scroll;
+    height: 100%;
+}
